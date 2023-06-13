@@ -55,6 +55,6 @@ resilience4j:
         base-config: default
         sliding-window-type: COUNT_BASED
         sliding-window-size: 5
-        wait-duration-in-open-state: 1m
+        wait-duration-in-open-state: 5s
         failure-rate-threshold: 20
 
