@@ -36,7 +36,7 @@ resilience4j:
       instances:
         retryCatalog:
           base-config: default
-          max-retry-attempts: 5
+          max-retry-attempts: 1
           wait-duration: 2s
           retry-exceptions:
             - java.net.ConnectException
