@@ -5,8 +5,11 @@ spring:
     name: api-catalog
   data:
     mongodb:
-      database: test
+      username: usr-catalog-mongo
+      password: pwd-catalog-mongo
+      database: catalog
       port: 27018
+      host: localhost
 info:
   application:
     name: api-catalog
