@@ -36,8 +36,8 @@ resilience4j:
       instances:
         retryCatalog:
           base-config: default
-          max-retry-attempts: 3
-          wait-duration: 1s
+          max-retry-attempts: 5
+          wait-duration: 2s
           retry-exceptions:
             - java.net.ConnectException
   circuitbreaker:
